@@ -1,7 +1,8 @@
-from django.urls import path
+from django.urls import path 
 from . import views 
 from rest_framework.routers import DefaultRouter
 
+
 urlpatterns = [
-    path()
+    path('league/', views.LeagueList.as_view(), name='league_list'),
 ]
