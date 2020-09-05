@@ -8,8 +8,7 @@ Users can see a list of all current leagues, and Top clubs, and top players in t
 #Wireframes
 
 ## Home Screen (Indepth)
-
-[Imgur](https://i.imgur.com/V5azn4L.png)
+<a href="https://imgur.com/V5azn4L"><img src="https://i.imgur.com/V5azn4L.png" title="source: imgur.com" /></a>
 
 
 ## Team Screen (Indepth)
