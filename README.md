@@ -1,11 +1,11 @@
-#{fetchGOAl} 
+# {fetchGOAl} 
 
 ## Project Description
 
 My app is called fetchGOAl. It's an app for fanatic futbol(American Football) fans. 
 Users can see a list of all current leagues, and Top clubs, and top players in that respective league as well.
 
-#Wireframes
+# Wireframes
 
 ## Home Screen (Indepth)
 <a href="https://imgur.com/V5azn4L"><img src="https://i.imgur.com/V5azn4L.png" title="source: imgur.com" /></a>
@@ -15,7 +15,7 @@ Users can see a list of all current leagues, and Top clubs, and top players in t
 
 <a href="https://imgur.com/omMvsi3"><img src="https://i.imgur.com/omMvsi3.png" title="source: imgur.com" /></a>
 
-##MVP User Stories 
+## MVP User Stories 
 
 *As a user, I want to seee a listing of the current coach for my favorite club. 
 
@@ -23,7 +23,7 @@ Users can see a list of all current leagues, and Top clubs, and top players in t
 
 *As a user, I would like to click ona indivilual match to view additional details about it including the current clubs starting formation, current coaching staff, and overall coaching staff records
 
-# POst MVP Stretch GOALS
+# Post MVP Stretch GOALS
 
 *As a user, I would like to securely login to the app and navigate as easily, and seemlessly as possiable. 
 
