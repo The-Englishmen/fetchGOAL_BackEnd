@@ -10,4 +10,4 @@ class LeagueSerializer(serializers.ModelSerializer):
 class TeamSerializer(serializers.ModelSerializer):
     class Meta:
         model = Team
-        fields = ['name', 'league','preview_url']
+        fields = ['name','league','preview_url']

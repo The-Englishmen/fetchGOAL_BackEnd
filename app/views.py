@@ -1,5 +1,5 @@
 from rest_framework import generics
-from .serializers import 
+from .serializers import LeagueSerializer, TeamSerializer
 from .models import League, Team
 
 # Create your views here.
