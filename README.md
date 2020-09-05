@@ -14,7 +14,7 @@ Users can see a list of all current leagues, and Top clubs, and top players in t
 
 ## Team Screen (Indepth)
 
-[Imgur](https://i.imgur.com/omMvsi3.png)
+https://i.imgur.com/omMvsi3.png
 
 ##MVP User Stories 
 
