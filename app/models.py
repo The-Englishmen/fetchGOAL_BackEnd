@@ -5,7 +5,7 @@ from django.db import models
 
 class League(models.Model):
     name = models.CharField(max_length=100)
-    federation = models.ForeignKey(Federation, on_delete=models.CASCADE, related_name='federation')
+    federation = models.ForeignKey(Federation, on_delete=models.CASCADE, related_name='leagues')
     photo_url = models.TextField()
 
     def __str__(self):
