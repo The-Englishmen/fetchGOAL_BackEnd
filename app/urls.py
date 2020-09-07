@@ -5,4 +5,6 @@ from rest_framework.routers import DefaultRouter
 
 urlpatterns = [
     path('league/', views.LeagueList.as_view(), name='league_list'),
+    path('team/', views.TeamList.as_view(), name='team_list'),
+    path('federation/', views.FederationList.as_view(), name='federation_list'),
 ]
