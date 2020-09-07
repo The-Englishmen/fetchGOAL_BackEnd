@@ -9,7 +9,7 @@ class League(models.Model):
     photo_url = models.TextField()
 
     def __str__(self):
-        return f'{self.name},{self.federation}''
+        return f'{self.name},{self.federation}'
 
 
 class Team(models.Model):
