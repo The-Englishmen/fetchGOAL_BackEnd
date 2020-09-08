@@ -1,4 +1,4 @@
-# {fetchGOAl} 
+# {fetchGOAl} An App for the fanatic football(soccer) fan. 
 
 ## Project Description
 
