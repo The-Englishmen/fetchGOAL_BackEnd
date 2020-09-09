@@ -16,4 +16,4 @@ class TeamSerializer(serializers.ModelSerializer):
 class FederationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Federation
-        fields = ['name', 'federation','photo_url']
+        fields = ['name', 'photo_url']
