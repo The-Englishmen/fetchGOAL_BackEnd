@@ -1,0 +1,1 @@
+web: gunicorn fetch_django.wsgi
