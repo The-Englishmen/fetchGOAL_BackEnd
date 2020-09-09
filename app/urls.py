@@ -7,5 +7,5 @@ urlpatterns = [
     path('league/', views.LeagueList.as_view(), name='league_list'),
     path('team/', views.TeamList.as_view(), name='team_list'),
     path('federation/', views.FederationList.as_view(), name='federation_list'),
-    path('federation_list/<int:pk>', views.FederationDetail.as_view(), name='federation_detail'),
+    
 ]
