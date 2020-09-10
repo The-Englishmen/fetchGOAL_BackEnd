@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['*']
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://git.heroku.com/whispering-garden-05173.git",
 ]
 
 
