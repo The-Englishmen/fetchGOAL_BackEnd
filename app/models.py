@@ -29,3 +29,13 @@ class Team(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Tournament(models.Model):
+    name = models.CharField(max_length=100)
+    federation = models.ForeignKey(Federation, on_delete=models.CASCADE, related_name='tournaments')
+    photo_url = models.TextField()
+
+
+    def __str__(self):
+        return self.name

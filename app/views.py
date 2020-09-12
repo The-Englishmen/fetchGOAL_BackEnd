@@ -1,6 +1,6 @@
 from rest_framework import generics
-from .serializers import LeagueSerializer, TeamSerializer, FederationSerializer
-from .models import League, Team, Federation
+from .serializers import LeagueSerializer, TeamSerializer, FederationSerializer, TournamentSerializer
+from .models import League, Team, Federation, Tournament
 
 # Create your views here.
 
@@ -30,3 +30,12 @@ class FederationList(generics.ListCreateAPIView):
 class FederationDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Federation.objects.all()
     serializer_class = FederationSerializer
+
+class TournamentList(generics.ListCreateAPIView):
+    queryset = Tournament.objects.all()
+    serializer_class = TournamentSerializer
+
+
+class TournamentDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Tournament.objects.all()
+    serializer_class = TournamentSerializer

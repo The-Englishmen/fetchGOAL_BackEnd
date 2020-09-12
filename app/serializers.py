@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import League, Team, Federation
+from .models import League, Team, Federation, Tournament
 
 class LeagueSerializer(serializers.ModelSerializer):
     class Meta:
@@ -16,4 +16,10 @@ class TeamSerializer(serializers.ModelSerializer):
 class FederationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Federation
+        fields = ['name', 'photo_url']
+
+
+class  TournamentSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Tournament
         fields = ['name', 'photo_url']
