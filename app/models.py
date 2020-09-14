@@ -43,7 +43,7 @@ class Tournament(models.Model):
 
 class Championship(models.Model):
     name = models.CharField(max_length=100)
-    team = models.ForeignKey(Team, on_delete=models.CASCADE, related_name='teams')
+    team = models.ForeignKey(Team, on_delete=models.CASCADE, related_name='championships')
     federation = models.ForeignKey(Federation, on_delete=models.CASCADE, related_name='championships')
     photo_url = models.TextField()
 
