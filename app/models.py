@@ -33,11 +33,16 @@ class Team(models.Model):
 
 class Tournament(models.Model):
     name = models.CharField(max_length=100)
+<<<<<<< HEAD
     federation = models.ForeignKey(Federation, on_delete=models.CASCADE, related_name='tournaments')
+=======
+    federation = models.ForeignKey(Federation, on_delete=models.CASCADE, related_name='tournament')
+>>>>>>> dev
     photo_url = models.TextField()
 
 
     def __str__(self):
+<<<<<<< HEAD
         return self.name
 
 
@@ -50,3 +55,6 @@ class Championship(models.Model):
 
     def __str__(self):
         return self.name
+=======
+        return self.name
+>>>>>>> dev
